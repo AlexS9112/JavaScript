@@ -1,26 +1,26 @@
-// function f1(a1,a2){
-// console.log(a1 + a2)
+function f1(a1,a2){
+console.log(a1 + a2)
 
-// }
-// f1(5,5)
-
-
-// function f2(a1,a2){
-//     console.log(a1 ** a2)
-
-// }
-// f2(5,2)
+}
+f1(5,5)
 
 
+function f2(a1,a2){
+    console.log(a1 ** a2)
 
-// function f3(И,Ф,О){
-//      res = JSON.stringify({И, Ф, О})
-//      res1 = res.replace(/"([^"]+)":/g, '$1:')
+}
+f2(5,2)
 
-//      console.log(res1)
-//      return res1
-// }
-// f3 ("name","surname","middlename")
+
+
+function f3(И,Ф,О){
+     res = JSON.stringify({И, Ф, О})
+     res1 = res.replace(/"([^"]+)":/g, '$1:')
+
+     console.log(res1)
+     return res1
+}
+f3 ("name","surname","middlename")
 
 
 function f4(q1){
